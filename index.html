@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Name - Portfolio</title>
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Poppins:wght@500&display=swap" rel="stylesheet">
+
+    <!-- FontAwesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+    <link rel="stylesheet" href="css/style.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+
+
+</head>
+
+<body>
+
+    <!-- Header and Navigation -->
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact Me</a></li>
+                <li><a href="https://drive.google.com/file/d/15SwMOLBdceJ8XPORwvbDcq7wfNHbTfhH/view?usp=drive_link" download>Download Resume</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="hero">
+        <div id="static-name">
+            <h2>Hi, I'm <span id="name">Tejal Daga</span></h2> <!-- Static name -->
+        </div>
+
+        <div id="typewriter-line">
+            <span id="typewriter"></span> <!-- Typewriter text will be appended here -->
+        </div>
+
+        <div id="social-icons">
+            <!-- LinkedIn Icon -->
+            <a href="https://www.linkedin.com/in/tejalrdaga/" target="_blank" class="icon">
+                <i class="fab fa-linkedin"></i>
+            </a>
+
+            <!-- GitHub Icon -->
+            <a href="https://github.com/TejalRD" target="_blank" class="icon">
+                <i class="fab fa-github"></i>
+            </a>
+
+            <!-- Resume Download Icon -->
+            <a href="https://drive.google.com/file/d/15SwMOLBdceJ8XPORwvbDcq7wfNHbTfhH/view?usp=drive_link" download class="icon">
+                <i class="fas fa-file-download"></i>
+            </a>
+        </div>
+    </section>
+
+
+    <!-- Font Awesome CDN -->
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+
+
+
+    <!-- About Me Section -->
+    <!--<section id="about">
+        <h2>About Me</h2>
+        <div class="about-content">-->
+    <!--<div class="about-boxes">
+        <div class="box">Creative Thinker</div>
+        <div class="box">Problem Solver</div>
+        <div class="box">Tech Enthusiast</div>
+    </div>-->
+    <!--<img src="images/Me.jpg" alt="Your profile picture">
+            <div class="about-text">
+                <p>I'm a software engineer with a deep passion for crafting impactful solutions. Whether it's optimizing workflows, developing machine learning models, or creating dynamic applications, I thrive on turning complex challenges into streamlined, user-friendly products. When I'm not coding, you can find me painting, diving into a good book, or championing TFG-Tech For Good. My journey is all about blending creativity with technical expertise to make a difference in both the digital and real world.</p>
+                <a href="#contact" class="connect-button">Let's Connect</a>
+            </div>
+            </>
+        </div>
+    </section>-->
+
+    <section id="about">
+        <h2>About Me</h2>
+        <div class="about-container">
+            <!-- Profile Image -->
+            <img src="images/Me.jpg" alt="Profile Picture" class="profile-pic">
+
+            <!-- About Text Content -->
+            <div class="about-text">
+                <p>
+                    I'm a software engineer passionate about crafting impactful solutions.
+                    Whether it's <strong>building scalable applications</strong>,
+                    <strong>developing machine learning models or optimizing workflows</strong>, I thrive on tackling complex challenges.
+                </p>
+
+                <p>
+                    When I'm not coding, you can find me painting, reading a good book, and championing Tech for Good (TFG) initiatives.
+                </p>
+
+                <p>
+                    My goal is to blend creativity with technology to make a real impact in the digital and physical world.
+                </p>
+
+                <a href="#contact" class="connect-button">
+                    <i class="fas fa-envelope"></i> Let's Connect
+                </a>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Tech Stack Section -->
+    <section id="tech-stack">
+        <h2>Tech Stack</h2>
+        <div class="tech-stack-container">
+            <!-- Programming Languages -->
+            <div class="tech-box">
+                <h3>Programming Languages</h3>
+                <ul>
+                    <li><img src="images/csharp.png" alt="C#" class="tech-logo"> C#</li>
+                    <li><img src="images/java.png" alt="Java" class="tech-logo"> Java</li>
+                    <li><img src="images/cpp.png" alt="C++" class="tech-logo"> C++</li>
+                    <li><img src="images/python.jpg" alt="Python" class="tech-logo"> Python</li>
+
+
+                </ul>
+            </div>
+
+            <!-- Database Skills -->
+            <div class="tech-box">
+                <h3>Databases</h3>
+                <ul>
+                    <li><img src="images/mysql.png" alt="MySQL" class="tech-logo"> MySQL</li>
+                    <li><img src="images/mongodb.png" alt="MongoDB" class="tech-logo"> MongoDB</li>
+                    <li><img src="images/sqlite.png" alt="SQLite" class="tech-logo"> SQLite</li>
+                    <li><img src="images/plsql.png" alt="PL/SQL" class="tech-logo"> PL/SQL</li>
+
+                </ul>
+            </div>
+
+            <!-- Backend Skills -->
+
+            <div class="tech-box">
+                <h3>Backend</h3>
+                <ul>
+                    <li><img src="images/dotnet.png" alt="ASP.NET" class="tech-logo"> ASP.NET</li>
+                    <li><img src="images/rest.png" alt="Rest" class="tech-logo"> Rest</li>
+                    <li><img src="images/selenium.png" alt="Selenium" class="tech-logo"> Selenium</li>
+                    <li><img src="images/nodejs.png" alt="Node JS" class="tech-logo"> Node JS</li>
+
+
+
+                </ul>
+            </div>
+
+            <!-- Cloud -->
+            <div class="tech-box">
+                <h3>Cloud</h3>
+                <ul>
+                    <li><img src="images/aws.png" alt="AWS" class="tech-logo"> AWS</li>
+                    <li><img src="images/gcp.png" alt="Google Cloud" class="tech-logo"> Google Cloud</li>
+                    <li><img src="images/Azure.png" alt="Azure" class="tech-logo"> Azure</li>
+                    <li><img src="images/firebase.png" alt="Firebase" class="tech-logo"> Firebase</li>
+
+                </ul>
+            </div>
+
+            <!-- Version Control -->
+            <div class="tech-box">
+                <h3>Version Control</h3>
+                <ul>
+
+                    <li><img src="images/github.png" alt="GitHub" class="tech-logo"> GitHub</li>
+                    <li><img src="images/gitlab.png" alt="GitLab" class="tech-logo"> GitLab</li>
+
+                </ul>
+            </div>
+
+
+
+            <!-- Front End -->
+            <div class="tech-box">
+                <h3>Front End</h3>
+                <ul>
+                    <li><img src="images/html.png" alt="HTML" class="tech-logo"> HTML</li>
+                    <li><img src="images/css.png" alt="CSS" class="tech-logo"> CSS</li>
+                    <li><img src="images/javascript.png" alt="JavaScript" class="tech-logo"> JavaScript</li>
+                    <li><img src="images/react.png" alt="React" class="tech-logo"> React</li>
+
+
+                </ul>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Education Section -->
+    <!--<section id="education">
+        <h2>Education</h2>
+        <div class="education-grid">
+            <div class="education-card">
+                <h3>Bachelor of Computer Science</h3>
+                <p>XYZ University | 2020 - 2024</p>
+                <p>GPA: 3.8</p>
+                <ul>
+                    <li>Relevant Courses: Web Development, Data Structures, Algorithms</li>
+                    <li>Worked on various research projects in AI and Machine Learning.</li>
+                </ul>
+            </div>
+            <div class="education-card">
+                <h3>Web Development Bootcamp</h3>
+                <p>Code Academy | 2019</p>
+                <ul>
+                    <li>Completed a 12-week intensive program covering HTML, CSS, JavaScript.</li>
+                    <li>Gained hands-on experience with front-end and back-end frameworks.</li>
+                </ul>
+            </div>
+        </div>-->
+
+    <section id="education">
+        <h2>Education</h2>
+        <div class="education-container">
+            <!-- Use the same class as Tech Stack -->
+            <div class="edu-box">
+                <img src="images/sppu.png" class="edu-logo">
+                <h3>Savitribai Phule Pune University</h3>
+                <p>Pune, India | August 2014- May 2018</p>
+                <h4>Bachelor of Engineering, Computer Engineering</h4>
+                <ul>
+                    <li>Data Structures and Problem Solving</li>
+                    <li>Object Oriented and Multicore programming</li>
+                    <li>Theory of Computation</li>
+                    <li>Computer Networks</li>
+                    <li>Design and Analysis of Algorithms</li>
+                </ul>
+            </div>
+
+            <div class="edu-box">
+                <img src="images/bu.png" class="edu-logo">
+                <h3>Binghamton University, SUNY</h3>
+                <p>Binghamton, NY | August 2021- May 2023</p>
+                <h4>Master of Science, Computer Science</h4>
+                <ul>
+                    <li>Database Systems</li>
+                    <li>Cloud Computing</li>
+                    <li>Design Patterns</li>
+                    <li>Social Media Data Science</li>
+                    <li>Operating Systems</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <section id="experience">
+        <h2>Experience</h2>
+        <div class="tech-stack-container">
+            <!-- Reuse Tech Stack style -->
+            <div class="exp-box">
+                <img src="images/ctdi.png" class="edu-logo">
+                <h3>Software Engineer</h3>
+                <p>Communications Test Design Inc.| West Chester, PA</p>
+                <p>July 2023 - Present</p>
+
+                <ul>
+                    <li>Developed a high-performance cosmetic grading application for mobile platforms, utilizing Python, C#, SQL, and machine learning models. </li>
+                    <li>Achieved a 30% improvement in cosmetic grading accuracy and enhanced processing throughput by 5x compared to manual methods. </li>
+                    <li>Engineered functional testing software for routers, leveraging C#, .NET, SQL, and Selenium, which boosted test execution efficiency by 10x.</li>
+                    <li>Integrated Git workflows for automated software deployment and testing in both the applications.</li>
+                </ul>
+
+            </div>
+            <div class="exp-box">
+                <img src="images/sunyrf.jpg" class="edu-logo">
+                <h3>Research Assistant</h3>
+                <p>SUNY Research Foundation | Binghamton, NY </p>
+                <p>January 2022 - Oct 2022</p>
+                <ul>
+                    <li>Designed and implemented an optimized quotation generation system for a machine shop using JavaScript, HTML, and Python, with MS Excel for data management.</li>
+                    <li>Developed a machine learning model to analyze historical data, optimizing quote generation based on customer specifications.</li>
+                    <li>The system streamlined manual processes, minimized errors, and significantly improved the accuracy and consistency of quotations, resulting in enhanced operational efficiency.</li>
+
+                </ul>
+            </div>
+            <div class="exp-box">
+                <img src="images/yardi.jpg" class="edu-logo">
+                <h3>Software Engineer</h3>
+                <p>Yardi Systems | Pune, India</p>
+                <p>August 2018 - July 2021</p>
+                <ul>
+                    <li>Developed customized SQL packages and JavaScript solutions to address complex product issues, optimizing Yardi's MS SQL database for nearly 30,000 clients. </li>
+                    <li>Worked closely with account managers to improve data consistency, resulting in a 20% increase in data quality. </li>
+                    <li>Mentored 3 junior developers within the RentCafe team, significantly reducing their ramp-up time and enabling their swift integration into the team.</li>
+
+                </ul>
+            </div>
+        </div>
+    </section>
+
+
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="tech-stack-container">
+            <!-- Match Tech Stack -->
+            <div class="proj-box">
+                <h3>Game Trends - Analysis of sports insights using social media.</h3>
+                <img src="images/sports.jpg" class="proj-logo">
+                <a href="https://github.com/TejalRD/Analyzing-sports-insights-Results" target="_blank">
+                    <img src="images/link.png" class="proj-link">
+                </a>
+            </div>
+            <div class="proj-box">
+                <h3>Pictionary - Cloud Based shared gaming session.</h3>
+                <img src="images/cloudproj.jpg" class="proj-logo">
+                <a href="https://github.com/TejalRD/Shared-Pictionary-Session-Cloud" target="_blank">
+                    <img src="images/link.png" class="proj-link">
+                </a>
+            </div>
+            <div class="proj-box">
+                <h3>Backup System for student records.</h3>
+                <img src="images/observerdp.jpg" class="proj-logo">
+                <a href="https://github.com/TejalRD/ObserverPattern-StudentBackupSystem" target="_blank">
+                    <img src="images/link.png" class="proj-link">
+                </a>
+            </div>
+            <div class="proj-box">
+                <h3>Sentiment Prediction through data analysis.</h3>
+                <img src="images/sentimentanalysis.jpg" class="proj-logo">
+                <a href="https://ijsrd.com/Article.php?manuscript=IJSRDV5I110057" target="_blank">
+                    <img src="images/link.png" class="proj-link">
+                </a>
+            </div>
+            <div class="proj-box">
+                <h3>Depression prediction and monitoring.</h3>
+                <img src="images/depression.jpg" class="proj-logo">
+                <a href="https://www.ijraset.com/fileserve.php?FID=17562" target="_blank">
+                    <img src="images/link.png" class="proj-link">
+                </a>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Contact Section -->
+    <!--<section id="contact">
+        <h2>Contact Me</h2>
+        <form action="mailto:dagatejal@gmail.com" method="post" enctype="text/plain">
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name" required>
+
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" required>
+
+    <label for="message">Message:</label>
+    <textarea id="message" name="message" required></textarea>
+        <button type="submit">Send</button>-->
+    <!--<button type="button" id="sendButton">Send</button>-->
+    <!--</form>
+
+
+    </section>-->
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <form action="mailto:dagatejal@gmail.com" method="post" enctype="text/plain">
+            <div class="input-container">
+                <i class="fas fa-user"></i>
+                <input type="text" id="name" name="name" placeholder="Your Name" required>
+            </div>
+
+            <div class="input-container">
+                <i class="fas fa-envelope"></i>
+                <input type="email" id="email" name="email" placeholder="Your Email" required>
+            </div>
+
+            <div class="input-container">
+                <i class="fas fa-comment"></i>
+                <textarea id="message" name="message" placeholder="Your Message" required></textarea>
+            </div>
+
+            <button type="submit" class="send-button">
+                <i class="fas fa-paper-plane"></i> Send Message
+            </button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Portfolio Website |Designed and developed by Tejal Daga | All rights reserved.</p>
+        <div class="social-links">
+            <a href="https://github.com/TejalRD" target="_blank"><i class="fab fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/tejalrdaga/" target="_blank"><i class="fab fa-linkedin"></i></a>
+
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>
+
